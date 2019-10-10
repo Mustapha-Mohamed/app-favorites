@@ -1,0 +1,89 @@
+body
+
+{background-color: grey;}
+
+
+img{
+ 
+  margin-left: -4px;
+  margin-right: 10px; 
+  height: 280px;
+  width: 1250px;
+  animation: rotation 5s linear ;
+
+}
+
+
+.net{
+ 	margin-left: 6px;
+  	margin-right: 6px; 
+  	height: 220px;
+  	width: 420px;
+
+}
+
+.ne{
+	display: flex;
+	font-family: cursive;
+	color: white;
+
+}
+
+.ix{
+	margin-left: 6px;
+  	margin-right: 6px; 
+  	height: 220px;
+  	width: 420px;
+}
+
+.nne{
+	font-family: cursive;
+	color: white;
+}
+
+  .lol{
+  
+	margin-left: 6px;
+  	margin-right: 6px; 
+  	height: 220px;
+  	width: 420px;
+
+	}
+
+
+	.non{
+			display: flex;
+		font-family: cursive;
+		color: white;
+
+	}
+
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0) translateX(0px);
+  }
+  25%{
+    transform: rotate(90deg) translateX(50px);
+  }
+  50%{
+    transform: rotate(180deg) translateX(0px);
+  }
+
+
+
+.ouai
+{
+	 
+  	height: 120px;
+  	width: 120px;
+
+}
+
+span{color:white;
+}
+
+  
+

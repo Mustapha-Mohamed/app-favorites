@@ -1,0 +1,44 @@
+body
+
+{background-image:url(https://images.frandroid.com/wp-content/uploads/2018/05/youtube-music-logo-1.jpg);
+	background-position:center auto;
+	background-size: 50% auto;
+	background-repeat: repeat;
+}
+
+.you{
+	 height: 120px;
+ 	 width: 250px;
+ 	 box-shadow: 1px 1px 19px;
+	background-color:grey;
+ 	padding: 10px;
+ 	border-radius: 10%;
+ 		
+ 		 }
+
+ .yes{
+ 	font-family: cursive;
+ 	color: grey;
+ 	display:flex;
+ }
+
+.no{
+ 	height: 220px;
+  	width: 155px;
+  	animation: rotation 5s linear;
+  	
+
+  }
+
+  @keyframes rotation {
+  0% {
+    transform: rotate(0) translateX(0px);
+  }
+  25%{
+    transform: rotate(50deg) translateX(50px);
+  }
+  50%{
+    transform: rotate(60deg) translateX(0px);
+  }
+
+

@@ -1,0 +1,56 @@
+body
+
+{background-color: grey;}
+
+img{
+ 
+  margin-left: -6px;
+  margin-right: 7px; 
+  height: 288px;
+  width: 1250px;
+
+}
+
+.you{
+  margin-left: 6px;
+  margin-right: 6px; 
+  height: 255px;
+  width: 255px;
+ float: right;
+}
+
+h2{font-family: cursive;
+  animation-name: couleur;
+  animation-duration: 15s;}
+
+span{color: blue;
+  background-color: transparent;
+  font-family: cursive;
+  transition:0.4s all;
+  padding:10px;
+  font-size: 15px;  
+  
+
+}
+
+@keyframes couleur{
+    from{
+        background-color: orange;
+    }
+    25%{
+        background-color: blue;
+        width: 75%
+    }
+    50%{
+        background-color: purple;
+        width: 50%
+    }
+    75%{
+        background-color: red;
+        width: 75%;
+    }
+    to{
+        background-color: orange;
+    }
+}
+
