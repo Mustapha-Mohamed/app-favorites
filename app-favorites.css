@@ -1,6 +1,10 @@
 body
 
-{background-color: grey;}
+{background-image:url("https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-position: cover;
+	background-size: auto;
+
+}
 
 img{
  
@@ -9,6 +13,7 @@ img{
   height: 288px;
   width: 1250px;
 
+
 }
 
 .you{
@@ -16,20 +21,24 @@ img{
   margin-right: 6px; 
   height: 255px;
   width: 255px;
- float: right;
+ display: inline-flex;
+ border-radius: 50%;
+ background-color: white;
+
 }
 
-h2{font-family: cursive;
+h2{
+	color: white;
+	font-family: cursive;
   animation-name: couleur;
   animation-duration: 15s;}
 
-span{color: blue;
-  background-color: transparent;
-  font-family: cursive;
-  transition:0.4s all;
+span{color: yellow;
+ 
   padding:10px;
-  font-size: 15px;  
-  
+  font-size: 17px;  
+  transition:0.4s all;
+
 
 }
 
@@ -52,5 +61,10 @@ span{color: blue;
     to{
         background-color: orange;
     }
+}
+
+p{
+	font-family: cursive;
+	color: white;
 }
 
