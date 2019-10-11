@@ -1,6 +1,13 @@
 body
 
-{background-color: grey;}
+{background-image:url(https://www.numerama.com/content/uploads/2018/10/netflix-logo.jpg);
+background-size: 20%;
+
+
+
+}
+
+
 
 
 img{
@@ -8,18 +15,29 @@ img{
   margin-left: -4px;
   margin-right: 10px; 
   height: 280px;
-  width: 1250px;
-  animation: rotation 5s linear ;
+  width: 500px;
+animation-name: wsh;
+animation-duration: 5s;
 
 }
 
+@keyframes wsh{
+
+  from{
+    width: 25%;
+  }
+
+  to{
+    width: 40%;
+  }
+}
 
 .net{
  	margin-left: 6px;
   	margin-right: 6px; 
   	height: 220px;
   	width: 420px;
-
+  animation: rotation 5s linear ;
 }
 
 .ne{
@@ -47,7 +65,7 @@ img{
   	margin-right: 6px; 
   	height: 220px;
   	width: 420px;
-
+  animation: rotation 5s linear ;
 	}
 
 
@@ -87,3 +105,6 @@ span{color:white;
 
   
 
+h2{font-family: cursive;
+color: white;
+}
