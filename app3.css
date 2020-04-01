@@ -1,72 +1,96 @@
+/* PRINCIPALE */
 
-body
-
-{
-    background-image:linear-gradient(purple, violet );
-	color:white;
-	 font-family:fantasy;
-}
-
-img{
- 
-  	margin-left: -6px;
-  	margin-right: 7px; 
-  	height: 120px;
- 	 width: 250px;
- 	 box-shadow: 1px 1px 19px;
-	background-color:blue;
- 	padding: 10px;
- 	border-radius: 10%;
- 	display: table-footer-group;
- 
-
+html{
+    margin: 0;
   }
-
-  .ouii{
- 	font-family: cursive;
- 	color: white;
+  
+ body{
+    background-image:linear-gradient(purple, violet );
 
  }
-
- .no{
- 	height: 220px;
-  	width: 355px;
-  	animation: rotation 3s linear;
-  	}
-
-  	 article
   
-  {padding:5px;
-  }
-
-  aside
-  {padding:10px;
-  margin :0 auto;
+  /* HEADER */
   
-	}
-
-
- @keyframes rotation {
-  0% {
-    transform: rotate(0) translateX(0px);
+  header nav{
+    display: block;
+    text-align: center;
+    
   }
-  25%{
-    transform: rotate(300deg) translateX(20px);
-  }
-  50%{
-    transform: rotate(320deg) translateX(0px);
-  }
-
-
-
-.page{
   
-  text-align: auto;
-  margin-bottom: auto;
-  position: absolute;
-  height: 60px;
-  width: 10%;
-  bottom: 0px;
-  float: right;
-}
+  header nav ul{
+    list-style-type:none;
+    padding: 0;
+  }
+  
+  header li a{
+    display: block;
+    padding: 20px;
+  }
+  
+  header li a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header ul li a{
+    display: block;
+    text-decoration:none;
+    color: red;
+    font-size: 200%;
+  }
+  
+  
+  header nav ul li:hover ul{
+    display: block;
+    margin-left: 20px;
+  }
+  
+  
+  header .menu{
+    background-color: transparent;
+    font-family: cursive;
+  }
+  
 
+  /* SECTION */
+
+  article h2{
+    color: white;
+    font-family: cursive;
+    font-size: 120%;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow:16px 16px tomato ;
+  }
+  
+  .image{
+  height: 255px;
+  width: 300px;
+  box-shadow: 1px 1px 19px;
+  background-color:red;
+  padding: 10px;
+   border-radius: 22%;
+   animation: rotation 3s linear;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0) translateX(0px);
+    }
+    25%{
+      transform: rotate(300deg) translateX(20px);
+    }
+    50%{
+      transform: rotate(320deg) translateX(0px);
+    }
+  }
+  
+  article{
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+  }
+  

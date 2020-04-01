@@ -1,110 +1,99 @@
-body
+/* PRINCIPALE */
 
-{background-image:url(https://www.numerama.com/content/uploads/2018/10/netflix-logo.jpg);
-background-size: 20%;
-
-
-
+html{
+  margin: 0;
 }
 
-
-
-
-img{
- 
-  margin-left: -4px;
-  margin-right: 10px; 
-  height: 280px;
-  width: 500px;
-animation-name: wsh;
-animation-duration: 5s;
-
+body{
+ background-color: rgba(92, 89, 89, 0.781);
 }
 
-@keyframes wsh{
+/* HEADER */
 
-  from{
-    width: 25%;
-  }
-
-  to{
-    width: 40%;
-  }
-}
-
-.net{
- 	margin-left: 6px;
-  	margin-right: 6px; 
-  	height: 220px;
-  	width: 420px;
-  animation: rotation 5s linear ;
-}
-
-.ne{
-	display: flex;
-	font-family: cursive;
-	color: white;
-
-}
-
-.ix{
-	margin-left: 6px;
-  	margin-right: 6px; 
-  	height: 220px;
-  	width: 420px;
-}
-
-.nne{
-	font-family: cursive;
-	color: white;
-}
-
-  .lol{
+header nav{
+  display: block;
+  text-align: center;
   
-	margin-left: 6px;
-  	margin-right: 6px; 
-  	height: 220px;
-  	width: 420px;
-  animation: rotation 5s linear ;
-	}
+}
+
+header nav ul{
+  list-style-type:none;
+  padding: 0;
+}
+
+header li a{
+  display: block;
+  padding: 20px;
+}
+
+header li a:hover{
+  background-color: wheat;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul li a{
+  display: block;
+  text-decoration:none;
+  color: red;
+  font-size: 200%;
+}
 
 
-	.non{
-			display: flex;
-		font-family: cursive;
-		color: white;
-
-	}
+header nav ul li:hover ul{
+  display: block;
+  margin-left: 20px;
+}
 
 
+header .menu{
+  background-color: wheat;
+  font-family: cursive;
+}
 
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0) translateX(0px);
-  }
-  25%{
-    transform: rotate(90deg) translateX(50px);
-  }
-  50%{
-    transform: rotate(180deg) translateX(0px);
-  }
+/* SECTION 1 */
 
+article p{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  padding: 5%;
+}
 
-
-.ouai
-{
-	 
-  	height: 120px;
-  	width: 120px;
+.image{
+height: 355px;
+width: 230px;
+box-shadow: 8px 8px 12px #aaa;
 
 }
 
-span{color:white;
+article{
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
-  
+/* SECTION 2 */
 
-h2{font-family: cursive;
-color: white;
+.article1{
+  background-color: rgb(202, 71, 71);
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+}
+
+.section1{
+  padding: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2{
+margin-left: auto;
+margin-right: auto;
+height: 355px;
+width: 530px;
+box-shadow: 8px 8px 12px rgb(182, 185, 132);
 }

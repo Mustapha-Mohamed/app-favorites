@@ -1,70 +1,76 @@
-body
+/* PRINCIPALE */
 
-{background-image:url("https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-	background-position: cover;
-	background-size: auto;
-
+html{
+  margin: 0;
 }
 
-img{
+body{
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image:url(https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: auto;
+}
+
+/* HEADER */
+
+header nav{
+  display: block;
+  text-align: center;
+  
+}
+
+header nav ul{
+  list-style-type:none;
+  padding: 0;
+}
+
+header li a{
+  display: block;
+  padding: 20px;
+}
+
+header li a:hover{
+  background-color: rgb(71, 175, 71);
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul li a{
+  display: block;
+  text-decoration:none;
+  color: #FFFFFF;
+  font-size: 150%;
+}
+
+
+header nav ul li:hover ul{
+  display: block;
+  margin-left: 20px;
+}
+
+
+header .menu{
+  background-color: rgb(71, 175, 71);
+  font-family: cursive;
+}
+
+  
+/* ACCUEIL */
+
+section h2{
+color: yellow;
+font-family: cursive;
+text-align: center;
+padding: 3%;
+}
  
-  margin-left: -6px;
-  margin-right: 7px; 
-  height: 288px;
-  width: 1250px;
-
-
-}
-
-.you{
-  margin-left: 6px;
-  margin-right: 6px; 
-  height: 255px;
-  width: 255px;
- display: inline-flex;
- border-radius: 50%;
- background-color: white;
-
-}
-
-h2{
-	color: white;
-	font-family: cursive;
-  animation-name: couleur;
-  animation-duration: 15s;}
-
-span{color: yellow;
- 
-  padding:10px;
-  font-size: 17px;  
-  transition:0.4s all;
-
-
-}
-
-@keyframes couleur{
-    from{
-        background-color: orange;
-    }
-    25%{
-        background-color: blue;
-        width: 75%
-    }
-    50%{
-        background-color: purple;
-        width: 50%
-    }
-    75%{
-        background-color: red;
-        width: 75%;
-    }
-    to{
-        background-color: orange;
-    }
-}
-
-p{
-	font-family: cursive;
-	color: white;
+.image{
+margin-left: auto;
+margin-right: auto; 
+height: 255px;
+width: 455px;
+display: flex;
 }
 
